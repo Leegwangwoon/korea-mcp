@@ -1,0 +1,48 @@
+{
+  "manifest_version": "0.2",
+  "name": "korea-mcp",
+  "display_name": "Korea MCP",
+  "version": "0.1.0",
+  "description": "Get around Korea: subway routes in English, fares, public holidays and guides. No API key.",
+  "long_description": "Seoul-area subway routes in English, Korean, Japanese and Chinese with transfers, which platform to board, estimated time and the official fare (660 stations, 25 lines across Seoul, Incheon and Gyeonggi). Also lists Korean public holidays, including substitute holidays, and has short guides on T-money, airport transfers, emergency numbers and useful apps. Data is bundled, so it needs no API key and works offline.",
+  "author": {
+    "name": "Leegwangwoon",
+    "url": "https://github.com/Leegwangwoon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leegwangwoon/korea-mcp"
+  },
+  "homepage": "https://github.com/Leegwangwoon/korea-mcp",
+  "support": "https://github.com/Leegwangwoon/korea-mcp/issues",
+  "server": {
+    "type": "node",
+    "entry_point": "dist/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/dist/index.js"
+      ],
+      "env": {}
+    }
+  },
+  "keywords": [
+    "korea",
+    "seoul",
+    "subway",
+    "metro",
+    "travel",
+    "holidays"
+  ],
+  "license": "MIT",
+  "compatibility": {
+    "platforms": [
+      "darwin",
+      "win32",
+      "linux"
+    ],
+    "runtimes": {
+      "node": ">=20.0.0"
+    }
+  }
+}

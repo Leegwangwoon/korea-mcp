@@ -39,7 +39,9 @@ That's fine for people, but bad for AI agents. Naver and Kakao **don't offer a p
 claude mcp add korea -- npx -y korea-mcp
 ```
 
-**Claude Desktop, Cursor and other MCP clients.** Add this to your MCP config (`claude_desktop_config.json`, `.cursor/mcp.json`, …):
+**Claude Desktop, one click.** Download [korea-mcp.mcpb](https://github.com/Leegwangwoon/korea-mcp/releases/latest/download/korea-mcp.mcpb) and open it. Claude Desktop installs it as an extension.
+
+**Claude Desktop (manual), Cursor and other MCP clients.** Add this to your MCP config (`claude_desktop_config.json`, `.cursor/mcp.json`, …):
 
 ```json
 {
@@ -155,7 +157,9 @@ The code is [MIT](LICENSE). The subway data is © OpenStreetMap contributors, un
 claude mcp add korea -- npx -y korea-mcp
 ```
 
-**Claude Desktop, Cursor 등.** MCP 설정 파일에 아래 내용을 추가하세요.
+**Claude Desktop 원클릭 설치.** [korea-mcp.mcpb](https://github.com/Leegwangwoon/korea-mcp/releases/latest/download/korea-mcp.mcpb)를 내려받아 열면 Claude Desktop에 확장 프로그램으로 설치됩니다.
+
+**Claude Desktop(직접 설정), Cursor 등.** MCP 설정 파일에 아래 내용을 추가하세요.
 
 ```json
 {
