@@ -6,6 +6,8 @@
 
 **No API key. No Korean phone number. Works offline.**
 
+![korea-mcp answering subway routes from Myeongdong to Seongsu and from Gangnam to Gyeongbokgung](https://raw.githubusercontent.com/Leegwangwoon/korea-mcp/main/docs/demo.gif)
+
 ```
 You:    How do I get from Myeongdong to Seongsu by subway?
 
