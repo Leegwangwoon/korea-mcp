@@ -1,0 +1,22 @@
+{
+  "source": "Seoul Metropolitan Area integrated distance-based fare, effective 2025-06-28 (Ministry of Land, Infrastructure and Transport notice, 2025-06-19).",
+  "checkedAt": "2026-10-14",
+  "currency": "KRW",
+  "adult": {
+    "card": 1550,
+    "singleJourneyTicket": 1650,
+    "baseDistanceKm": 10,
+    "steps": [
+      { "untilKm": 50, "everyKm": 5, "add": 100 },
+      { "untilKm": null, "everyKm": 8, "add": 100 }
+    ]
+  },
+  "lineSurcharges": {
+    "shinbundang": "Shinbundang Line adds a separate surcharge on top of the distance fare.",
+    "arex": "AREX all-stop trains use their own distance fare; AREX Express (direct train, Seoul Station ↔ Incheon Airport) needs a separate ticket and does not take T-money.",
+    "gtx-a": "GTX-A uses its own, higher fare table.",
+    "yongin": "Yongin EverLine is privately operated and may add a surcharge.",
+    "uijeongbu": "Uijeongbu LRT is privately operated and may add a surcharge.",
+    "maglev": "Incheon Airport Maglev operation status changes; check before travelling."
+  }
+}
