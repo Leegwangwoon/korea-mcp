@@ -1,6 +1,7 @@
 {
   "name": "korea-mcp",
   "version": "0.1.0",
+  "mcpName": "io.github.Leegwangwoon/korea-mcp",
   "description": "MCP server that helps AI agents get around Korea: subway routes in English, fares, public holidays and practical guides. Works with no API key.",
   "keywords": [
     "mcp",
@@ -14,6 +15,14 @@
     "ai-agent"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leegwangwoon/korea-mcp.git"
+  },
+  "homepage": "https://github.com/Leegwangwoon/korea-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/Leegwangwoon/korea-mcp/issues"
+  },
   "type": "module",
   "bin": {
     "korea-mcp": "dist/index.js"
