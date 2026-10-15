@@ -1,5 +1,7 @@
 # korea-mcp 🇰🇷
 
+[![npm](https://img.shields.io/npm/v/korea-mcp)](https://www.npmjs.com/package/korea-mcp) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![korea-mcp MCP server](https://glama.ai/mcp/servers/Leegwangwoon/korea-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Leegwangwoon/korea-mcp)
+
 **English** · [한국어](#한국어)
 
 **Let your AI agent get you around Korea.** Subway routes in English, fares, public holidays and practical tips, as an [MCP](https://modelcontextprotocol.io) server for Claude, Cursor, ChatGPT and any MCP client.
@@ -83,6 +85,8 @@ Here is what this server knows, and what it only estimates:
 - **Express trains** are off by default because express stopping patterns in OSM are incomplete. Turn them on with `allow_express`.
 
 Found a wrong route? [Open an issue](../../issues) with the two stations. That's the most useful bug report there is.
+
+If korea-mcp helped you get around, a ⭐ helps other travelers find it.
 
 ## Roadmap
 
@@ -191,6 +195,8 @@ Node.js 20 이상이 필요합니다.
 - **급행은 기본으로 꺼져 있습니다.** OSM의 급행 정차 정보가 불완전하기 때문이에요. 쓰려면 `allow_express` 옵션을 켜세요.
 
 틀린 경로를 발견하면 출발역과 도착역을 적어서 [이슈](../../issues)로 알려주세요. 가장 도움이 되는 제보입니다.
+
+도움이 됐다면 ⭐ 하나 눌러 주세요. 다른 여행자들이 이 프로젝트를 찾는 데 큰 도움이 됩니다.
 
 ### 로드맵
 
